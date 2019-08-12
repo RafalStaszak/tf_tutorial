@@ -1,9 +1,6 @@
 import os
 from tensorflow.contrib import eager as tfe
 from system.misc import makedirs
-import model.losses as losses
-from algorithms.pool import *
-from model.layers import UpSampleBilinear, DownSampleMaxPool
 from algorithms.image import *
 
 

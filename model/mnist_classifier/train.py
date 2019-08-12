@@ -3,7 +3,6 @@ import tensorflow as tf
 tf.enable_eager_execution()
 from tensorflow.contrib import summary as summary
 from model.summaries import BaseLogs
-from model.rotate_net.network import *
 import dataset.mnist as dataset
 import os
 from model.mnist_classifier.network import MnistClassifier
